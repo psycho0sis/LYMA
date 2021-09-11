@@ -384,7 +384,8 @@ margin: 0 auto;
 }
 .slider-wrapper {
     display: flex;
-    height: 278px;
+    height: 248px;
+    padding-bottom: 55px;
 }
 .swiper-wrapper {
     align-items: stretch;
@@ -519,6 +520,12 @@ span:last-child{
 }
 .swiper-pagination-bullet-active {
     background-color: #000;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    position: relative;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
 }
 
 /*Responsive*/
